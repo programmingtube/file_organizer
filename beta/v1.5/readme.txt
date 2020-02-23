@@ -1,11 +1,11 @@
 ----------------------Readme TXT File------------------------------
 
-----------------------File Organizer------------------------------
+----------------------File Organizer Beta v1.5---------------------
 
 Welcome to Image Organizer, an official open-source program by
 Programming Tube(TM).
 This is a cross-platform program!
-This is a light-weight, superquick and stable version of File
+This is a light-weight, superquick and beta version of File
 Organizer build completely using python 3.
 
 Find great Tutorials @ www.youtube.com/c/programmingtubetuts
@@ -16,6 +16,17 @@ __________________________________________________________________
 |             Kindly Run fix_dependencies.bat file before        |
 |             using the software for first time                  |
 __________________________________________________________________
+
+-------------------------------------------------------------------
+------------------------- Whats' New ------------------------------
+1. Added function to Ignore Files and Folders
+  -> Now files and folders can be excluded from being organized while using the program from terminal.
+  -> Just use "-if" argument to ignore folders followed by folder names and separated by commas.
+    syntax: X:> python organize_files.py -if "folder1, folder2, folder3"
+  -> To exclude files from being organized, use "-lf" argument followed by file names with extension and separated by commas.
+    syntax: X:> python organize_files.py -lf "file.ext, file2.ext"
+    
+---------------------------------------------------------------------
 --------------------------Usage------------------------------------
 
 You can also run the 'reg_organize_files.reg' file to register the
