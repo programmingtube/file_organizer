@@ -9,11 +9,11 @@ ________________________________________________________________________________
 
 # What's New
 1. Added function to Ignore Files and Folders
-  -> Now files and folders can be excluded from being organized while using the program from terminal.
-  -> Just use "-if" argument to ignore folders followed by folder names and separated by commas.
-    syntax: X:> python organize_files.py -if "folder1, folder2, folder3"
-  -> To exclude files from being organized, use "-lf" argument followed by file names with extension and separated by commas.
-    syntax: X:> python organize_files.py -lf "file.ext, file2.ext"
+  -> Now files and folders can be excluded from being organized while using the program from terminal.<br>
+  -> Just use "-if" argument to ignore folders followed by folder names and separated by commas.<br>
+    syntax: X:> python organize_files.py -if "folder1, folder2, folder3".<br>
+  -> To exclude files from being organized, use "-lf" argument followed by file names with extension and separated by commas.<br>
+    syntax: X:> python organize_files.py -lf "file.ext, file2.ext".<br>
 
 ___________________________________________________________________________________________
 
@@ -36,7 +36,7 @@ ________________________________________________________________________________
       2. You must have python3 installed on your system before using the program as this program is completely dependent upon python.
       
 # Discussing the parameters
-There are two simple parameters in the program.
+There are four simple parameters in the new beta version.
 
 <h3>1. -wf/--workingfolder -> Folder , Not Compulsory.</h3>
   This argument takes in the folder on which the program has to work.<br>
@@ -48,6 +48,16 @@ There are two simple parameters in the program.
   This argument is not compulsory, But you can set your own Output Directory.<br>
   <strong>The default directory is -> organized_files.</strong><br>
     <strong>e.g. X:\\Desktop> python organize_images.py -wf Images -of Output</strong>
+    
+ <h3>3. -if/--ignorefolder -> Ignore Folder, Not Compulsory.</h3>
+ This argument enables the user to ignore organizing any subfolders in the target folder.<br>
+ <strong>By default no sub-folders are ignored.</strong><br>
+  <strong>e.g. X:\\Desktop> python organize_images.py -if "folder1, folder2"</strong>
+ 
+ <h3>4. -lf/--ignorefiles -> Ignore Files, Not Compulsory.</h3>
+ This argument enables the user to ignore organizing any file in the target folder.<br>
+ <strong>By default no files are ignored.</strong><br>
+  <strong>e.g. X:\\Desktop> python organize_images.py -lf "file.extension, file2.extension"</strong>
     
 # Dependencies
 <h3>1. Base Software:</h3>
