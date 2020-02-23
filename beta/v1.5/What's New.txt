@@ -1,0 +1,7 @@
+----------Version 1.5 Beta Release New Features----------
+1. Added function to Ignore Files and Folders
+  -> Now files and folders can be excluded from being organized while using the program from terminal.
+  -> Just use "-if" argument to ignore folders followed by folder names and separated by commas.
+    syntax: X:> python organize_files.py -if "folder1, folder2, folder3"
+  -> To exclude files from being organized, use "-lf" argument followed by file names with extension and separated by commas.
+    syntax: X:> python organize_files.py -lf "file.ext, file2.ext"
